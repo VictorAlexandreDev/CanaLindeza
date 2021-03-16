@@ -1,0 +1,82 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Kalam', cursive;
+
+}
+body {
+   background: linear-gradient(-45deg, #450291, #941eca, #040352, #1f47a7, #c4437a) no-repeat;
+   background-size: 300% 300%;
+   height: 100vh;
+   animation: gradient 5s ease alternate infinite;
+}
+div.lindeza{
+   height: 60vh;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding: 50px 4%;
+   background-image: url('../img/33.png');
+   background-size: cover;
+   background-position: center;
+}
+div.lindeza img{
+      width: 100%;
+      max-width: 100px;
+      height: 100px;
+      margin: 4%;
+      border-radius: 50%;
+}
+div.links{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+input[type=button]{
+   height: 60px;
+   width: 90vw;
+   border: 0;
+   margin: 10px 0;
+   border-radius: 50px;
+   font-size: 30px;
+   background: transparent;
+   border: 2px solid white;
+   color: white;
+   cursor: pointer;
+}
+input[type=button]:hover{
+   background: transparent linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2));
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes gradient{
+   from{
+      background-position: 0 50%;
+   }
+   to{
+      background-position: 100% 50%;
+   }
+}
